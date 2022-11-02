@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Natural</title>
+    <link rel="stylesheet" href="../EstilosCss/whatsaap.css">
+    <link rel="stylesheet" href="index.css">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" rel="stylesheet" />
+    
+    <!-- eliminar ya -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap" rel="stylesheet">
+    
+     <!-- Codigo de los iconos -->
+    <script src="https://kit.fontawesome.com/071c27b1f7.js" crossorigin="anonymous"></script>
+    <!-- codigo de java crolRevel -->
+    <script src="js/scrollreveal.js"></script>
+</head>
+<body>
+    <body>
+        <a href="https://wa.me/595985258940?text=%C2%A1Hola%21%2C+quisiera+saber+mas+de+sus+productos." class="btn-wsp" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
+        <!-- <a href="https://api.whatsapp.com/send?phone=+51987654321" class="btn-wsp" target="_blank">
+            <i class="fa fa-whatsapp icono"></i>
+        </a> -->
+
+  <nav class="navegacion">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="fa-solid fa-bars"></i>
+    </label>
+    <a href="#" class="enlace">
+      <img src="../images/logo-mundo-natural.png" class="logo" alt="">
+    </a>
+    <ul class="primernav">
+      <li><a class="active inicio" href="#">Inicio</a></li>
+      <li><a class="nosotros2" href="Paginas/sobreNosotros.html">Nosotros</a></li>
+      <li><a class="productos2" href="#">Productos</a></li>
+      <li><a class="marcas" href="#">Marcas</a></li>
+      <li><a class="contacto" href="#">Contacto</a></li>
+    </ul>
+
+  </nav>
+
+  
+<!-- Empezamos con el Hero principal -->
+<section id="hero">
+  <h1 class="mundonatural">Mundo Natural<br></h1>
+  <h2 class="titulo">Cuidando tu  <span class="typed"></span></h2>
+  <button>Saber Mas</button>
+</section>
+
+
+<!-- Emezamos con el slider del Hero -->
+<section id="seccion-slider">
+  <div class="slider">
+    <div class="slides">
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <!-- radios boton end -->
+      <!-- slider imagen start -->
+      <div class="slide first">
+        <img src="images/MundoNatural banner.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/frutos secos5.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/NesfitLeche.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="images/cuidaDefensa.jpg" alt="">
+      </div>
+      <!-- slider images end -->
+      <!-- navegacion automatica stard -->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+      <!-- navegacion automatica end-->
+    </div>
+    <!-- manual navigation stard -->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+    <!-- manual navigation end -->
+  </div>
+</section>
+ <!-- Seccion de categorias -->
+<main>
+  <h1 class="text-categoria">Explore Nuesta Tienda</h1>
+  
+  <div class="container__box" >
+      <div class="box" id="btnAmazon">
+         
+        <img src="images/Sin gluten.png" alt="">
+          <h5>Sin Gluten</h5>
+          <h4 >Sin Gluten</h4>
+          <a href="https://www.amazon.com/-/es/ref=nav_logo"></a>
+      </div>
+      <div class="box">
+          <img src="hoverImg/barraChocolate.png" alt="">
+          <h5>Snacks Saludables</h5>
+          <h4>Snacks Saludables</h4>
+      </div>
+      <div class="box">
+        <img src="hoverImg/aceite.png" alt="">
+          <h5>Aceites</h5>
+          <h4>Aceites</h4>
+      </div>
+      <div class="box">
+        
+          <img src="hoverImg/ProductosBelleza.png" alt="">
+          <h5>Productos Cosméticos</h5>
+          <h4>Productos Cosméticos</h4>
+      </div>
+      <div class="box">
+          <img src="hoverImg/frutoSeco.png" alt="">
+          <h5>Frutos Secos</h5>
+          <h4>Frutos Secos</h4>
+      </div>
+      <div class="box">
+          <img src="hoverImg/Suplementos.png" alt="">
+          <h5>Suplementsasasos</h5>
+          <h4>Suplementos</h4>
+      </div>
+      
+      <div class="box">
+          <img src="hoverImg/Sin lactosa.png" alt="">
+          <h5> Sin lactosa</h5>
+          <h4> Sin lactosa</h4>
+      </div>
+      <div class="box">
+          <img src="hoverImg/Cafe.png" alt="">
+          <h5>Té y Cafe</h5>
+          <h4>Té y Cafe</h4>
+      </div>
+      <div class="box">
+          <img src="hoverImg/semillas.png" alt="">
+          <h5>Semillas</h5>
+          <h4>Semillas</h4>
+      </div>
+      <div class="box">
+         <img src="hoverImg/condimento.png" alt="">
+          <h5>Condimentos</h5>
+          <h4>Condimentos</h4>
+      </div>
+
+  </div>
+
+  
+</main>
+
+<!-- Seccion de productos -->
+<section class="product"> 
+  <h2 class="product-category">Frutos Secos</h2>
+  <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+  <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+  <div class="product-container">
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="Frutos Secos/almendras3.jpg" class="product-thumb" alt="">
+              <button class="card-btn">Preguntar</button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand">Almedras</h2>
+              <p class="product-short-description">Proteínas vegetales energizantes</p>
+              <span class="price"></span><span class="actual-price"></span>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="Frutos Secos/frutos secos 2.jpg" class="product-thumb" alt="">
+              <button class="card-btn">Saber Mas</button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand">Nueces</h2>
+              <p class="product-short-description">100% Nuevas</p>
+              <span class="price"></span><span class="actual-price"></span>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="Frutos Secos/Avellana.jpg" class="product-thumb" alt="">
+              <button class="card-btn">Preguntar</button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand">Avellanas</h2>
+              <p class="product-short-description">Previene el daño celula</p>
+              <span class="price"></span><span class="actual-price"></span>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="Frutos Secos/pipas de calabaza.jpg" class="product-thumb" alt="">
+              <button class="card-btn">Preguntar</button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand">Pipas de calabaza</h2>
+              <p class="product-short-description">Magnesio para el corazón</p>
+              <span class="price"></span><span class="actual-price"></span>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="Frutos Secos/uvas pasas.jpg" class="product-thumb" alt="">
+              <button class="card-btn">Preguntar</button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand">Uvas pasas</h2>
+              <p class="product-short-description"> Gran cantidad de fibra</p>
+              <span class="price"></span><span class="actual-price"></span>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="Frutos Secos/orejones.jpg" class="product-thumb" alt="">
+              <button class="card-btn">Preguntar</button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand">Orejones</h2>
+              <p class="product-short-description">Fuente de energía.</p>
+              <span class="price"></span><span class="actual-price"></span>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="Frutos Secos/Bayas Goji.jpg" class="product-thumb" alt="">
+              <button class="card-btn">Preguntar</button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand">Bayas Goji</h2>
+              <p class="product-short-description">Protege el Corazón</p>
+              <span class="price"></span><span class="actual-price"></span>
+          </div>
+      </div>
+      <div class="product-card">
+          <div class="product-image">
+              <span class="discount-tag"></span>
+              <img src="Frutos Secos/pinones.jpg" class="product-thumb" alt="">
+              <button class="card-btn">Preguntar</button>
+          </div>
+          <div class="product-info">
+              <h2 class="product-brand">Piñones</h2>
+              <p class="product-short-description">Los más saciantes.</p>
+              <span class="price"></span><span class="actual-price"></span>
+          </div>
+      </div>
+ 
+   
+    
+  </div>
+</section>
+
+<!-- seccion de productos 2, aceites -->
+<section class="product"> 
+    <h2 class="product-category">Frutos Secos</h2>
+    <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+    <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/almendras3.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Almedras</h2>
+                <p class="product-short-description">Proteínas vegetales energizantes</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/frutos secos 2.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Saber Mas</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Nueces</h2>
+                <p class="product-short-description">100% Nuevas</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/Avellana.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Avellanas</h2>
+                <p class="product-short-description">Previene el daño celula</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/pipas de calabaza.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Pipas de calabaza</h2>
+                <p class="product-short-description">Magnesio para el corazón</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/uvas pasas.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Uvas pasas</h2>
+                <p class="product-short-description"> Gran cantidad de fibra</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/orejones.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Orejones</h2>
+                <p class="product-short-description">Fuente de energía.</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/Bayas Goji.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Bayas Goji</h2>
+                <p class="product-short-description">Protege el Corazón</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/pinones.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Piñones</h2>
+                <p class="product-short-description">Los más saciantes.</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+  
+        
+    </div>
+</section>
+
+<section class="product"> 
+    <h2 class="product-category">Frutos Secos</h2>
+    <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+    <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/almendras3.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Almedras</h2>
+                <p class="product-short-description">Proteínas vegetales energizantes</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/frutos secos 2.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Saber Mas</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Nueces</h2>
+                <p class="product-short-description">100% Nuevas</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/Avellana.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Avellanas</h2>
+                <p class="product-short-description">Previene el daño celula</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/pipas de calabaza.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Pipas de calabaza</h2>
+                <p class="product-short-description">Magnesio para el corazón</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/uvas pasas.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Uvas pasas</h2>
+                <p class="product-short-description"> Gran cantidad de fibra</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/orejones.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Orejones</h2>
+                <p class="product-short-description">Fuente de energía.</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/Bayas Goji.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Bayas Goji</h2>
+                <p class="product-short-description">Protege el Corazón</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/pinones.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Piñones</h2>
+                <p class="product-short-description">Los más saciantes.</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+  
+        
+    </div>
+</section>
+<!-- Seccion 3 de productos??? -->
+<section class="product"> 
+    <h2 class="product-category">Frutos Secos</h2>
+    <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+    <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/almendras3.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Almedras</h2>
+                <p class="product-short-description">Proteínas vegetales energizantes</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/frutos secos 2.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Saber Mas</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Nueces</h2>
+                <p class="product-short-description">100% Nuevas</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/Avellana.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Avellanas</h2>
+                <p class="product-short-description">Previene el daño celula</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/pipas de calabaza.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Pipas de calabaza</h2>
+                <p class="product-short-description">Magnesio para el corazón</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/uvas pasas.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Uvas pasas</h2>
+                <p class="product-short-description"> Gran cantidad de fibra</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/orejones.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Orejones</h2>
+                <p class="product-short-description">Fuente de energía.</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/Bayas Goji.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Bayas Goji</h2>
+                <p class="product-short-description">Protege el Corazón</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag"></span>
+                <img src="Frutos Secos/pinones.jpg" class="product-thumb" alt="">
+                <button class="card-btn">Preguntar</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Piñones</h2>
+                <p class="product-short-description">Los más saciantes.</p>
+                <span class="price"></span><span class="actual-price"></span>
+            </div>
+        </div>
+
+    </div>
+</section>
+      
+      
+<!-- seccion del blog basico -->
+
+<section class="blog">
+    <h1 class="title">MIRA MÁS EN NUESTRO BLOG</h1>
+    <div class="container">
+       
+        <div class="card">
+            <img src="images/comer almendras.jpg">
+            <h4>Comer X dia 2 Almendras</h4>
+            <p>Todavía no probaste nuestras ALMENDRAS? Son deliciosas, de excelente calidad y al mejor precio 😉👌💯 Natural </p>
+            <a href="#">Leer más</a>
+        </div>
+        
+        <div class="card">
+            <img src="images/AdiosAlagrasa.jpg">
+            <h4>Decile adios al Acne</h4>
+            <p>💙 ACNEZIL 💙 <br> Gel exfoliante de limpieza profunda.De acción bactericida, actúa directamente sobre las bacterias causantes del acné. Limpia en profundidad la piel eliminando la grasa del rostro.</p>
+            <a href="Paginas/sobreNosotros.html">Leer más</a>
+        </div>
+        
+        <div class="card">
+            <img src="images/marcaPura.jpg">
+            <h4>Marca Peruana</h4>
+            <p>👌Multivitaminico para la memoria <br>
+                👌Retarda el envejecimiento <br>
+                👌Para deportistas y atletas <br>
+                👌Eleva la libido en Hombres y mujeres<br>
+                👌Anemia, estrés, decaimiento </p>
+            <a href="#">Leer más</a>
+        </div>
+
+        <div class="card">
+            <img src="images/paradormir.jpg">
+            <h4>Magnesio</h4>
+            <p>El Magnesio previene y mejora muchas enfermedades, pero sabías que te puede ayudar a dormir?</p>
+            <a href="#">Leer más</a>
+        </div>
+
+        <div class="card">
+            <img src="images/tribulus.jpg">
+            <h4>TRIBULUS</h4>
+            <p>BENEFICIOS del Tribulus Terrestris <br> Se considera efectivo para aumentar el deseo sexual y la masa muscular. La teoría indica que tres sustancias químicas de la planta podrían ayudar a fomentar el crecimiento de los músculos. 
+            </p>
+            <a href="#">Leer más</a>
+        </div>
+
+        <div class="card">
+            <img src="images/paralapiel.jpg">
+            <h4>COLÁGENO HIDROLIZADO CON VITAMINA C</h4>
+            <p>👌Ideal para deportistas, personas mayores de 25 años y todo aquel que quiera mejorar y prevenir enfermedades</p>
+            <a href="#">Leer más</a>
+        </div>
+     
+    </div>
+</section>
+
+<!-- Empezamos con la ubicacion del local -->
+<section class="imagen-fondo">
+    <div class="caja-texto">
+      <div class="texto">
+    <p  class="titulodelmapa">Surcusal <br> <br>
+
+        Lomas Valentinas Nº 1580 casi 25 de Mayo,<br> 
+        Encarnación, Paraguay<br>
+          
+        <br>
+        Lun - Vie: 9 a.m. - 7 p.m. <br>
+        Sábados: 9 am - 2 pm
+    </p>
+          
+        <div class="como-llegar"> 
+          <a href="https://g.page/mundo-natural-656?share"> <i class="lni lni-map-marker"></i> Como Llegar</a>
+
+          
+        </div>
+      </div>
+     
+    </div>
+    <div class="img-contenedor"></div>
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d886.12127449162!2d-55.8635319!3d-27.3292988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457955b54e489bb%3A0xd26e9c4f6fa678f5!2sMundo%20Natural!5e0!3m2!1ses!2spy!4v1667244178599!5m2!1ses!2spy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+  </section>
+
+  <!-- seccion del footer -->
+
+  <section class="footer-body">
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Empresa</h4>
+            <ul>
+              <li><a href="#">Sobre Nosotros</a></li>
+              <li><a href="#">Nuestros servicios</a></li>
+              <li><a href="#">Politica de privacidad</a></li>
+              <li><a href="#">Arogramas Afiliados</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>obtener Ayuda</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Envio</a></li>
+              <li><a href="#">Devoluciones</a></li>
+              <li><a href="#">Estado del pedido</a></li>
+              <li><a href="#">Opciones de pago</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Tienda online</h4>
+            <ul>
+              <li><a href="#">Mirar</a></li>
+              <li><a href="#">Aceite</a></li>
+              <li><a href="#">Cafe y Té</a></li>
+              <li><a href="#">Belleza</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Siguenos</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/profile.php?id=100063662046689"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://es.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </footer>
+  </section>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="index.js"></script>
+<script src="js/index2.js"></script>
+</body>
+</html>
